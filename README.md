@@ -48,25 +48,23 @@ morse-project/
 
 1. Clone the repository:
 
-bash
-
 git clone https://github.com/your-username/morse-project.git
 cd morse-project
-Create and activate a Python virtual environment:
 
-bash
+Create and activate a Python virtual environment:
 
 python3 -m venv venv
 source venv/bin/activate
-Install dependencies:
 
-bash
+Install dependencies:
 
 pip install numpy simpleaudio
 
 On Linux, you may need:
 
 sudo apt install libasound2-dev
+
+---
 
 🛠 Usage
 
@@ -82,6 +80,8 @@ Description
 2	Convert Morse → text
 3	Play Morse as audio
 
+---
+
 🧪 Examples
 Text → Morse
 
@@ -96,11 +96,15 @@ makefile
 Input: SOS
 Audio: ... --- ...
 
+---
+
 🧩 Tech Stack
 
 Python 3
 NumPy
 simpleaudio
+
+---
 
 ⚠️ Limitations
 
@@ -109,6 +113,8 @@ WAV export not implemented yet
 Fixed Morse speed
 
 No real-time audio decoding
+
+---
 
 🚧 Future Improvements
 
@@ -119,6 +125,8 @@ Adjustable speed (words per minute)
 GUI or web interface
 
 Unit tests and CI/CD pipeline
+
+---
 
 📌 About
 
