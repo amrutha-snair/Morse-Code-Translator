@@ -48,6 +48,7 @@ morse-project/
 1. Clone the repository:
 
 bash
+
 git clone https://github.com/your-username/morse-project.git
 cd morse-project
 Create and activate a Python virtual environment:
@@ -61,16 +62,17 @@ Install dependencies:
 bash
 
 pip install numpy simpleaudio
-On Linux, you may need:
 
-bash
+On Linux, you may need:
 
 sudo apt install libasound2-dev
 
 🛠 Usage
 
 Run the main CLI interface:
+
 python3 main.py
+
 Choose one of the options:
 
 Description
@@ -99,6 +101,7 @@ NumPy
 simpleaudio
 
 ⚠️ Limitations
+
 WAV export not implemented yet
 
 Fixed Morse speed
@@ -115,6 +118,7 @@ GUI or web interface
 Unit tests and CI/CD pipeline
 
 📌 About
+
 This project focuses on the fundamentals of encoding and decoding signals in software, illustrating how symbolic systems like Morse can be mapped to human-perceivable audio. It can serve as a foundation for more advanced DSP-oriented or communication-focused applications.
 
 ---
