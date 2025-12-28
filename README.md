@@ -17,6 +17,7 @@ This project demonstrates text-to-signal encoding and core logic for communicati
 ## 🧠 How It Works
 
 Morse code is represented with:
+
 - Dot: `.`
 - Dash: `-`
 - Letter separator: space (` `)
@@ -76,6 +77,7 @@ python3 main.py
 Choose one of the options:
 
 Description
+
 1	Convert text → Morse
 2	Convert Morse → text
 3	Play Morse as audio
@@ -109,6 +111,7 @@ Fixed Morse speed
 No real-time audio decoding
 
 🚧 Future Improvements
+
 WAV file export
 
 Adjustable speed (words per minute)
